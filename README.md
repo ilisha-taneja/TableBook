@@ -1,4 +1,4 @@
-# TableBook 🍽️
+# TableBook 
 
 A frontend-only restaurant **table booking system**. Manage tables, bookings, customers,
 availability, a monthly booking calendar and reports — no backend, no build step.
@@ -54,16 +54,25 @@ npx serve .
 ## Project structure
 
 ```
-index.html        app shell + script order
-css/styles.css    design tokens (dark/light), layout, components, motion
-favicon.svg       app icon
-js/
-  data.js         data model + localStorage persistence
-  ui.js           modal, toasts, badges, stat cards, shared helpers
-  app.js          auth gate, navigation, theme, boot
-  pages/
-    dashboard.js  tables.js  bookings.js  layout.js
-    customers.js  availability.js  calendar.js  reports.js
+TableBook/
+├── index.html
+├── favicon.svg
+├── README.md
+├── .gitignore
+├── css/
+└── js/
+    ├── app.js
+    ├── data.js
+    ├── ui.js
+    └── pages/
+        ├── availability.js
+        ├── bookings.js
+        ├── calendar.js
+        ├── customers.js
+        ├── dashboard.js
+        ├── layout.js
+        ├── reports.js
+        └── tables.js
 ```
 
 ## Storage keys
