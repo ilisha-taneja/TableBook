@@ -44,13 +44,6 @@ or serve the folder with any static server:
 npx serve .
 ```
 
-## Deploy to GitHub Pages
-
-1. Push this folder to a GitHub repository (all asset paths are **relative**, so no
-   configuration is needed).
-2. Repo → **Settings → Pages → Source: Deploy from a branch** → branch `main`, folder `/ (root)`.
-3. The site will be available at `https://<user>.github.io/<repo>/`.
-
 ## Project structure
 
 ```
